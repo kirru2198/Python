@@ -30,6 +30,10 @@ Let’s understand the meaning of this definition, step by step.
 
 There are two types of programming languages -- Interpreted and Compiled programming language
 
+- Interpreted rogramming language is a language which uses Interpretr for its translation
+-  Compiled programming language is a language which uses compiler for its translation
+-  compiler and Interpretr are translators --- they are use to translate the code written in one programming language to the code written in another programming language
+
 ### 🗣️ **1. Interpreted Language**
 
 - Python is an **interpreted language**, not a compiled one.
@@ -40,6 +44,14 @@ There are two types of programming languages -- Interpreted and Compiled program
 - **Computers understand only machine code (0s and 1s)**.
 - **Interpreter**: Translates human code → machine code line by line.
 - **Compiler**: Translates entire code → machine code at once.
+
+> we need to translate the code which we can understand to the code which machines can understand
+> - so you can think of a translator as a device or a machine which takes source code or the code which we humans can understand as input and in response it generates machine code as output
+> - machine code is the code which machines or computers can understand
+> - so this is the reason why translation is needed
+
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/b62f2fa1-39df-4194-b04d-8e971f4f9771" />
+
 
 Python uses an **interpreter** — so it translates code line-by-line when the program is run.
 
