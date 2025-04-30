@@ -74,6 +74,10 @@ Hence, Python is called **general-purpose** because it can be used anywhere.
 
 ### 🔝 **3. High-Level Language**
 
+> Python is a High-Level programming Language which means that we humans can understand this language without any problem
+
+>On the other hand a low-level programming Language is a Language which only machines can understand well (by the way machines can understrand the lnaguage of 0's and 1's and we humans are not capable of understanding that language) 
+
 - Python is **easy for humans to read and write**.
 - Contrast:
   - High-Level Code (like Python): `area = length * breadth`
@@ -86,6 +90,9 @@ breadth = 20
 area = length * breadth
 print(area)
 ```
+
+<img width="384" alt="image" src="https://github.com/user-attachments/assets/11496629-29ce-4b6f-a3ee-b7fb72f458af" />
+
 
 This is easy for **humans** to understand. That’s what makes Python a **high-level language**.
 
@@ -106,6 +113,7 @@ int x = 10;
 int y = 5;
 printf("%d", x + y);
 ```
+> "%d" is the placeholder for the value which we want to print -- in this case we want to print 15 on the screen that is why this "%d" is the placeholder for the value 15. Here, d stands for decimal. 
 
 **Python Code:**
 ```python
@@ -123,6 +131,8 @@ print(x + y)
 ---
 
 ### 🔄 **5. Dynamic Semantics**
+
+dynamic Semantics mean that variables are Dynamic objects in Python. 
 
 Python is **dynamically typed**:
 - You **don’t need to declare types** when creating variables.
