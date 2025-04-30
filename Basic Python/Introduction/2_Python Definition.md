@@ -28,6 +28,8 @@ Let’s understand the meaning of this definition, step by step.
 
 ## 🔍 Understanding the Definition
 
+There are two types of programming languages -- Interpreted and Compiled programming language
+
 ### 🗣️ **1. Interpreted Language**
 
 - Python is an **interpreted language**, not a compiled one.
