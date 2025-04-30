@@ -85,7 +85,9 @@ This course is designed for **everyone** who wants to learn Python.
 
 - **Anyone Curious About Python**  
   If you want to explore one of the most versatile programming languages in the world, this course is perfect for you.
+
   > "If you want to explore one of the most useful programming languages in many ways, this course is perfect for you."
+  
   > "If you want to explore one of the most flexible programming languages in the world, this course is perfect for you."
 
 ---
