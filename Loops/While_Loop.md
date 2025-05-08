@@ -62,6 +62,7 @@ As long as the `condition` remains true, the code block will keep executing.
 ### 🧪 **Example: Print 1 to 3 Using a While Loop**
 
 Let’s say we want to print numbers 1, 2, and 3. Of course, we could use three `print()` statements, but that’s not scalable. What if we had to print numbers from 1 to 100? That’s where loops help.
+> Let’s say we want to print numbers 1, 2, and 3. Of course, we could use three print() statements, but that wouldn’t work well if we had many more numbers to print.
 
 Let’s see how we can do this with a `while` loop:
 
