@@ -98,15 +98,6 @@ while n <= 3:
 * Always **initialize a variable** before updating it.
 * The `while` loop executes a block of code **as long as the condition is true**.
 * Use `while` loops when the number of iterations is not known in advance.
+> * Use `while` loops `when you don’t know how many times` the code needs to repeat.
 
 ---
-
-### 👋 Closing
-
-That brings us to the end of this session.
-Thank you for watching this presentation!
-I’ll see you in the next one. 😊
-
----
-
-Let me know if you'd like this in slide format or with code examples visually structured!
