@@ -75,7 +75,7 @@ while n <= 3:
 
 #### ✅ Step-by-step execution:
 
-1. `n = 1` (initialization)
+1. `n = 1` (initialization) # (starting value) - (n = 1 is giving n a starting value.)
 2. Check: Is `n <= 3`? → Yes (`1 <= 3`)
 3. Print `n` → prints `1`
 4. Update: `n = n + 1` → `n = 2`
