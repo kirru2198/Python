@@ -18,6 +18,7 @@ In this presentation, we will learn about the `for` loop in Python using the `ra
 ### **1. Introduction to the `range()` Function**
 
 The `range()` function returns a sequence of numbers. It generates numbers based on the arguments provided to it.
+> The range() function returns a sequence of numbers. It generates numbers based on the values you give it.
 
 #### **Syntax:**
 
