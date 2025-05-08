@@ -1,0 +1,116 @@
+# **Python String Methods – Part 8**
+
+Welcome back! Let's continue our discussion on string methods. This is **Part 8** of the series. In this session, we'll cover two new methods:
+
+1. `index()` method
+2. `rindex()` method
+
+After explaining these, we'll also look at a **homework problem** based on these concepts.
+
+---
+
+## **1. `index()` Method**
+
+The `index()` method returns the **index of the first occurrence** of a given substring in a string. It works **exactly like** the `find()` method, which we discussed in the previous session.
+
+### ✅ Key Difference from `find()`:
+
+* If the substring **is not found**, the `index()` method raises a **`ValueError` exception**.
+* In contrast, the `find()` method returns `-1` when the substring is not found.
+
+### 📘 Syntax:
+
+```python
+string.index(sub[, start[, end]])
+```
+
+* `sub` → The substring to search for (required)
+* `start` → The index to start searching from (optional)
+* `end` → The index to stop searching (optional)
+
+### 🔍 Example 1:
+
+```python
+"Python is a beautiful language".index("e")
+```
+
+**Output:** `13`
+✔ This is because the first occurrence of `"e"` is at index `13`.
+
+### 🔍 Example 2:
+
+```python
+"Python is a beautiful language".index("e", 1, 5)
+```
+
+**Output:**
+❌ This raises a `ValueError: substring not found` because `"e"` is not found between index `1` and `5` (`"ython"`).
+
+---
+
+## **2. `rindex()` Method**
+
+The `rindex()` method returns the **index of the last occurrence** of a specified substring in a string. It works like the `rfind()` method.
+
+### ✅ Key Difference from `rfind()`:
+
+* If the substring **is not found**, `rindex()` raises a **`ValueError`**.
+* The `rfind()` method, on the other hand, returns `-1` if the substring is not found.
+
+### 📘 Syntax:
+
+```python
+string.rindex(sub[, start[, end]])
+```
+
+* `sub` → The substring to search for (required)
+* `start` → The index to start searching from (optional)
+* `end` → The index to stop searching (optional)
+
+### 🔍 Example 1:
+
+```python
+"Python is a beautiful language".rindex("e")
+```
+
+**Output:** `29`
+✔ Because the last occurrence of `"e"` is at index `29`.
+
+### 🔍 Example 2:
+
+```python
+"Python is a beautiful language".rindex("e", 1, 5)
+```
+
+**Output:**
+❌ This raises a `ValueError: substring not found` because `"e"` is not present between index `1` and `5`.
+
+---
+
+## 🏠 Homework Problem
+
+### 💡 Question:
+
+What will be the output of the following lines of code?
+
+```python
+string = "Programming is fun and educational"
+print(string.index("a"))
+print(string.rindex("a"))
+print(string.find("z"))
+print(string.rfind("z"))
+```
+
+Before running the code, try to analyze it and guess the output on your own.
+
+---
+
+That concludes our session for today. We have now clearly understood:
+
+* The **`index()` method**
+* The **`rindex()` method**
+* The differences between `index()`/`find()` and `rindex()`/`rfind()`
+
+Thank you for watching this presentation. I’ll see you in the next one!
+
+---
