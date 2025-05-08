@@ -17,6 +17,7 @@ f"your string here {expression}"
 
 * Prefix the string with an `f` or `F`.
 * Inside the string, use `{}` to include variables or expressions that should be evaluated.
+> * Inside the string, use {} to include variables or expressions that should be calculated or replaced with their value.
 
 ### **Example:**
 
