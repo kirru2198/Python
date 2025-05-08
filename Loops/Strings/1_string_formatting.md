@@ -88,6 +88,8 @@ print("My name is {0} and I live in {1}.".format(name, city))
 ```
 
 * `{0}` refers to the first argument (`name`)
+> * {0} refers to the first value (name) you give to the function.
+> * In simple terms, argument means the input or value you pass into a function.
 * `{1}` refers to the second argument (`city`)
 
 You can also switch the order:
