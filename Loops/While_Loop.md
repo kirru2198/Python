@@ -46,6 +46,7 @@ You **must initialize** a variable **before updating** it. This is a common sour
 ### 🔁 **2. Basics of While Loop**
 
 The `while` loop allows us to **repeat a block of code** as long as a certain condition is `True`.
+> The while loop lets us keep running some code again and again as long as a condition is true.
 
 #### 📌 Syntax:
 
