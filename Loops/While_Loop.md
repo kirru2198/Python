@@ -36,6 +36,7 @@ x = x + 1
 ```
 
 This will result in an **error** because Python does not know what the current value of `x` is. We must always **initialize a variable before updating it**.
+> This will result in an error because Python does not know what the current value of x is. We must always give a variable a starting value before updating it.
 
 🔴 **Key Takeaway**:
 You **must initialize** a variable **before updating** it. This is a common source of bugs, especially when working with loops.
